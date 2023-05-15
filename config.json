@@ -1,0 +1,25 @@
+{
+    "map":
+    {
+        "basemap": 
+        {
+        "label": "steets-night-vector",
+        "path": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer"
+        },
+        "view":{
+           "centroid": {
+                "x": -4.18265,
+                "y": 56.816922
+            },
+            "zoom": 7
+        }
+},
+    "api":
+    {
+        "serverpath": "eu.api",
+        "token": "zjlkhFuM7levs6MPheOQdlMuYAEaMOQqOAKK9KHUGrc|",
+        "consumer_id":"11d08bd6-6e75-4dd5-9723-afd40c6c5b59",
+        "vendor_id": "696779729"
+    }
+}
+
