@@ -48,7 +48,6 @@ require([
 
 
     function createDiv(config){
-
         var map = new Map({
             basemap: "streets-night-vector", 
           });

@@ -112,7 +112,6 @@ define([
           
           let routeSpanElement = document.getElementById('routeQualityRow').querySelector('span');
           let closureSpanElement = document.getElementById('closureQuality').querySelector('span');
-          
 
           routeSpanElement.style.color = utils().getRouteQualityColor(routeQuality);
           closureSpanElement.style.color = utils().getClosureColor(hasClosure);

@@ -33,7 +33,6 @@ define([
 
         return graphicLyr
       },
-  
       newRouteUI: function (view, token) {
         let isCrosshairMode = false;
         let selectedLocations = []

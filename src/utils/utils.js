@@ -26,7 +26,6 @@ define([
               /* otherwise, move the DIV from anywhere inside the DIV:*/
               elmnt.onmousedown = dragMouseDown;
             }
-          
             function dragMouseDown(e) {
               e = e || window.event;
               e.preventDefault();
