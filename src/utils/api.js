@@ -8,7 +8,7 @@ define([
               console.log("GENERATING NEW TOKEN")
               let configResponse = await fetch('config.json');
               let config = await configResponse.json();
-              let baseURL = `http://${config.api.serverpath}.INRIX.com/traffic/Inrix.ashx?Action=GetSecurityToken`;
+              let baseURL = `https://${config.api.serverpath}.INRIX.com/traffic/Inrix.ashx?Action=GetSecurityToken`;
 
               let params = `&consumerId=${config.api.consumer_id}&vendorId=${config.api.vendor_id}&format=json`;
           

@@ -24,7 +24,7 @@ define([
                 let configResponse = await fetch('config.json');
                 let config = await configResponse.json();
 
-                let baseURL = `http://${config.api.serverpath}.INRIX.com/traffic/Inrix.ashx?Action=GetRoute`;
+                let baseURL = `https://${config.api.serverpath}.INRIX.com/traffic/Inrix.ashx?Action=GetRoute`;
                 let routeCall = `&Routeid=${id}`;
                // let token = await api().tokenGenerator(); // call the function to get the token value
                 let params = `&speedbucket=54135&Token=${token}&format=json&RouteOutputFields=d,s,w,p`;
@@ -204,7 +204,7 @@ define([
             const response = await fetch('config.json');
             const config = await response.json();
         
-            const baseURL = `http://${config.api.serverpath}.INRIX.com/traffic/Inrix.ashx`;
+            const baseURL = `https://${config.api.serverpath}.INRIX.com/traffic/Inrix.ashx`;
         
             const trafficToggle = document.getElementById('useTraffic').checked;
             const trafficString = trafficToggle ? "True" : "False";
