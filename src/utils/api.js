@@ -15,7 +15,7 @@ define([
           
               let call = baseURL + params;
 
-
+              console.log(call)
               let response = await utils().getData(call);
 
               console.log("SUCESS", response.result.token)
